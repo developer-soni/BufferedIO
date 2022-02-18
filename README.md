@@ -1,4 +1,7 @@
 # Buffered IO
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
 
 ## DESCRIPTION
 In this program, I created my own file descriptor which is just an integer index into an array and I maintain that for each open file. I, then use the Linux open, read and close functions and store the Linux file descriptor value and doesn’t expose it to the caller. The main file executes the program and reads the file and passes it to the buffer accordingly.
